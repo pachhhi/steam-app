@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #171D25;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav img{
+    background-color: #171D25;
+    width: 176px;
+    height: 44px;
+    
+}
+
+/* VIDEO */
+
+video, source{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -25;
+    position: absolute;
+    left: 0;
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.profileheader{
+    display: flex;
+    color: white;
+    padding-top: 25px;
+}
+.profileheader img{
+    margin-bottom: 25px;
+}
+
+h4{
+    font-size: 30px;
+}
+.biography{
+    margin-top: 40px;
+}
+
+
+.leveldiv h3{
+    display: flex;
+    position: relative;
+    
+}
+
+.leveldiv p{
+    border: 1px solid #FFDD71;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 3px;
+    padding-top: 3px;
+    
+}
+
+.badgediv{
+    display: flex;
+    
+    width: 268px;
+    height: 70px;
+    background-color: rgba( 0, 0, 0, 0.3 );
+    border-radius: 3px;
+}
+.badgediv img{
+    width: 54px;
+    height: 54px;
+    background-color: transparent;
+    margin-top: 8px;
+    margin-left: 8px;
+    
+}
+.badgediv small{
+    
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+
+
