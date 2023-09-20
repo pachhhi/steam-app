@@ -1,16 +1,31 @@
 import "../styles/profilecontent.css"
+import macroblank from "../img/macroblank.jpg"
 
 function ProfileContent (){
     return <div>
-        <div class="row profilecontent">
-            <div class="col-8">
-                <h4>Favorite Guide</h4>
-                <div>
-
+        <div class="row profilecontent container">
+            <div class="col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                <div class="tittlediv">
+                    <h4>Favorite Guide</h4>
+                </div>
+                <div class="guide">
+                    <img src={macroblank}/>
+                    <div class="guidetext">
+                        <h4>ꓘN∀⅂ꓭOꓤϽ∀ꟽ</h4>  
+                        <small>
+                            Created by - <p>pachhhi ,</p>
+                        </small>  
+                    </div>    
                 </div>
             </div>
-            <div class="col-4">
-                <h4>Currently Online</h4>
+            
+            <div class="col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="onlinetittle">
+                    <h4>Currently Online</h4>
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>

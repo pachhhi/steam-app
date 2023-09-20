@@ -2,6 +2,42 @@
     
 }
 
-h4{
+.tittlediv, .onlinetittle{
+    background-color: #131313;
+    color: white;
+    height: 29px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.tittlediv h4{
+    font-size: large;
+    
+}
+
+.onlinetittle h4{
+    font-size: large;
+}
+
+.guide{
+    margin-top: 5px;
+    background-color: #131313;
+    display: flex;
+}
+
+.guide img{
+    padding: 12px;
+}
+
+.guidetext {
+    color: white;
+    margin-top: 15px;
+}
+
+.guidetext small{
+    color: gray;
+    display: flex;
+}
+.guidetext small p{
     color: white;
 }

@@ -5,10 +5,10 @@ import badge from "../img/badge.png"
 function ProfileHeader(){
     return <div>
         <div class="profileheader container row">
-            <div class="col xs-12 sm-12 md-4 lg-4 xl-4 xxl-4">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-2">
                 <img src={imgprofile}/>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-6 ">
                 <div class="row">
                     <h4>pachhhi ,</h4>
                 </div>
@@ -24,7 +24,7 @@ function ProfileHeader(){
                 </small>
             </div>          
             </div>
-            <div class="col leveldiv">
+            <div class="leveldiv col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <h3>Level<p>31</p></h3>
                 <div class="badgediv">
                     { <img src={badge}/> }

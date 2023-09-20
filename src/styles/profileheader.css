@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+@media screen and (max-width:992px) {
+    .profileheader{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+    }
+    .badgediv{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
 .profileheader{
     display: flex;
     color: white;
@@ -42,12 +56,19 @@ h4{
 
 .badgediv{
     display: flex;
-    
     width: 268px;
     height: 70px;
     background-color: rgba( 0, 0, 0, 0.3 );
     border-radius: 3px;
+    
 }
+@media screen and (max-width:992px) {
+    .badgediv{
+        width: 200px;
+    }
+}
+
+
 .badgediv img{
     width: 54px;
     height: 54px;
