@@ -1,5 +1,6 @@
 import "../styles/profilecontent.css"
 import macroblank from "../img/macroblank.jpg"
+import ProfileLinks from "../pages/ProfileLinks";
 
 function ProfileContent (){
     return <div>
@@ -23,7 +24,7 @@ function ProfileContent (){
                 <div class="onlinetittle">
                     <h4>Currently Online</h4>
                     <div>
-                        
+                        <ProfileLinks/>
                     </div>
                 </div>
             </div>
