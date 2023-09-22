@@ -43,3 +43,10 @@
     width: 50vw;
 }
 
+.guidetext small{
+    color: gray;
+    display: flex;
+}
+.guidetext small p{
+    color: white;
+}

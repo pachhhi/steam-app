@@ -3,6 +3,7 @@ import Layout from "../src/components/Layout"
 import Main  from "../src/components/Main"
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 import Badges from './pages/Badges';
+import Games from "./pages/Games"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
               <Main/>
             </div>)}/>
             <Route path='/badges' element={<Badges/>}/> 
+            <Route path='/games' element={<Games/>}/>
         </Routes>
       </BrowserRouter>
     </div>

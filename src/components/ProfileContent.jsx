@@ -1,7 +1,6 @@
 import "../styles/profilecontent.css"
 import macroblank from "../img/macroblank.jpg"
-
-import { Route, Link } from "react-router-dom";
+import ProfileLinks from "../pages/ProfileLinks";
 
 function ProfileContent (){
     return <div>
@@ -15,7 +14,7 @@ function ProfileContent (){
                     <div class="guidetext">
                         <h4>ꓘN∀⅂ꓭOꓤϽ∀ꟽ</h4>  
                         <small>
-                            Created by - <p>pachhhi ,</p>
+                            Created by - <p> pachhhi ,</p>
                         </small>  
                     </div>    
                 </div>
@@ -24,15 +23,9 @@ function ProfileContent (){
             <div class="col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <div class="onlinetittle">
                     <h4>Currently Online</h4>
-                    
                         <div>
-                            <ul>
-                                <li>
-                                    <Link to="/badges">Badges</Link>
-                                </li>
-                            </ul>
+                            <ProfileLinks/>
                         </div>
-                    
                 </div>
             </div>
         </div>
