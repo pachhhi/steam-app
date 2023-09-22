@@ -10,7 +10,8 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    box-shadow: 0px 5px 0px 0px #000000;
+    
 }
 
 nav img{
@@ -29,4 +30,5 @@ video, source{
     z-index: -25;
     position: absolute;
     left: 0;
+    object-fit: cover;
 }

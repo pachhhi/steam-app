@@ -1,16 +1,23 @@
-*{
-    border-radius: 3px;
-}
+
 
 .profilecontent{
     display: flex;
 }
 
-.tittlediv,.onlinetittle{
+.tittlediv{
     color: white;
     background-color: #0C0C0C;
     padding: 5px 5px;
+    border-radius: 3px;
 }
+.onlinetittle{
+    color: white;
+    background-color: rgba( 0, 0, 0, 0.3 );
+    padding: 5px 0;
+    border-radius: 3px;
+}
+
+
 .tittlediv h4, .onlinetittle h4{
     font-size: 16px;
     padding-left: 16px;
@@ -18,14 +25,14 @@
 
 .guide{
     display: flex;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.3);;
+    padding: 17px 8px;
+    background-color: rgba(0, 0, 0, 0.3);
     
 }
 .guide img{
     padding: 8px 8px 8px 8px;
     background-color: #0C0C0C;
-    
+    border-radius: 3px;
 }
 
 .guidetext {

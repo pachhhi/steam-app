@@ -12,7 +12,7 @@
     }
 
     .leveldiv{
-        
+        display: none;
     }
 
     .badgediv{
@@ -36,6 +36,7 @@ h4{
 }
 .biography{
     margin-top: 40px;
+    padding-bottom: 15px;
 }
 
 
