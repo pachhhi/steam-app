@@ -5,7 +5,8 @@ function Badge(props){
         <h3>
             {props.nombre}
         </h3>
-            <div>
+        <hr/>
+            <div class="badgeinfo">
                 {<img src={props.ruta}/>}
                 <small>
                     {props.experiencia}

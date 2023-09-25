@@ -1,8 +1,32 @@
 .badgecontent{
     background-color: #1D1E1F;
     color: white;
+    border-radius: 5px;
+    
 }
 
 .badgecontent h3{
+    font-size: 16px;
+    padding: 10px 0 0 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.badgeinfo{
+    padding-left: 15px;
 
 }
+
+.badgeinfo img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.badgeinfo small{
+    color: gray;
+    padding-left: 15px;
+}
+
+
+

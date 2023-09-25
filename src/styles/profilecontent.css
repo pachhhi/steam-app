@@ -12,15 +12,20 @@
 }
 .onlinetittle{
     color: white;
-    background-color: rgba( 0, 0, 0, 0.3 );
+    background-color: #0C0C0C;
     padding: 5px 0;
     border-radius: 3px;
 }
 
 
-.tittlediv h4, .onlinetittle h4{
+.tittlediv h4{
     font-size: 16px;
-    padding-left: 16px;
+    padding-left: 12px;
+}
+.onlinetittle h4{
+    font-size: 16px;
+    padding-left: 12px;
+    color: #57cbde;;
 }
 
 .guide{

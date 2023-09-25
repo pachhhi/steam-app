@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
-import badgegames from "../img/badgegames.png"
 import "../styles/profilelinks.css"
+
+// import badges img
+import badgegames from "../img/badgegames.png"
+import badgeyears from "../img/badgeyears.png"
+import badgecommunity from "../img/badgecommunity.png"
+import badgecounterstrike from "../img/badgecounterstrike.png"
 
 function ProfileLinks(){
     return <div>
@@ -11,7 +16,11 @@ function ProfileLinks(){
                 </li>
             </ul>
             <div class="badgesdiv">
-                <img src={badgegames}/>    
+                <img src={badgegames}/>
+                <img src={badgeyears} class="badgestyle"/>
+                <img src={badgecommunity} class="badgestyle"/>
+                <img src={badgecounterstrike} class="badgestyle"/>
+
             </div> 
         </Link>
         <Link to="/games">

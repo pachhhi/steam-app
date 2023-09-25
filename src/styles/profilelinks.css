@@ -1,4 +1,17 @@
-p{
+ul li{
     text-decoration: none;
     list-style: none;
+    margin-left: -12px;
+    color: #ebebeb;;
+}
+
+.badgesdiv img{
+    padding: 0 15px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.badgestyle{
+    width: 84px;
+    height: 54px;
 }
