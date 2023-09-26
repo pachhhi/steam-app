@@ -30,6 +30,13 @@ function ProfileLinks(){
                 </li>
             </ul>
         </Link>
+        <Link to="/captures">
+            <ul>
+                <li>
+                    Captures
+                </li>
+            </ul>
+        </Link>
         
     </div>
 }

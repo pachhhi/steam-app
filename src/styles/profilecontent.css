@@ -21,11 +21,15 @@
 .tittlediv h4{
     font-size: 16px;
     padding-left: 12px;
+    font-weight: 400;
+    padding-top: 5px;
 }
 .onlinetittle h4{
     font-size: 16px;
     padding-left: 12px;
-    color: #57cbde;;
+    color: #57cbde;
+    font-weight: 400;
+    padding-top: 5px;
 }
 
 .guide{
@@ -46,6 +50,7 @@
     padding: 8px 8px 8px 8px;
     background-color: #0C0C0C;
     width: 50vw;
+    
 }
 
 .guidetext small{
@@ -54,4 +59,19 @@
 }
 .guidetext small p{
     color: white;
+}
+
+
+
+
+aside{
+    margin: 10px;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    padding-top: 2px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 95vh;
 }

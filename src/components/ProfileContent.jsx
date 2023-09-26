@@ -29,6 +29,17 @@ function ProfileContent (){
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div>
+                <h4>Captures</h4>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+        <aside>
+            <h3>IN PROCESS...</h3>
+        </aside>
     </div>
 }
 

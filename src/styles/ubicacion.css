@@ -1,0 +1,25 @@
+.ubicacioncontainer{
+    background-color: #434953;
+    display: flex;
+    border-radius: 3px;
+}
+
+.ubicacioncontainer img{
+    width: 64px;
+    height: 64px;
+    margin: 15px 25px;
+    
+}
+
+.ubicacioncontainer h4{
+    color: white;
+    font-size: 26px;
+    padding-top: 25px;
+}
+
+.ubicacioncontainer p{
+    color: white;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
