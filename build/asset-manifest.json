@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/steam-app/build/static/css/main.f6f6b36d.css",
+    "main.js": "/steam-app/build/static/js/main.c93fc0d8.js",
+    "static/js/787.2bf6970a.chunk.js": "/steam-app/build/static/js/787.2bf6970a.chunk.js",
+    "static/media/backgroundsteam.mp4": "/steam-app/build/static/media/backgroundsteam.b8f5d6fcc552e8bfd6ba.mp4",
+    "static/media/badgefreedom.png": "/steam-app/build/static/media/badgefreedom.e774ca7f1c2cf2fefeda.png",
+    "static/media/steamlogo.png": "/steam-app/build/static/media/steamlogo.b2976ad14ddfb6db59e6.png",
+    "static/media/badgegames.png": "/steam-app/build/static/media/badgegames.f2f7e80dfa3cdeea438d.png",
+    "static/media/badge.png": "/steam-app/build/static/media/badge.6ed160454a0c2f1c5c16.png",
+    "static/media/badgecounterstrike.png": "/steam-app/build/static/media/badgecounterstrike.1f66017133cd3c6b88f3.png",
+    "static/media/profileimg.jpg": "/steam-app/build/static/media/profileimg.5ae91ec630d6585855c9.jpg",
+    "static/media/badgecommunity.png": "/steam-app/build/static/media/badgecommunity.213bdb657505526cb448.png",
+    "static/media/macroblank.jpg": "/steam-app/build/static/media/macroblank.ffc74d1de3e477ae1f2f.jpg",
+    "index.html": "/steam-app/build/index.html",
+    "main.f6f6b36d.css.map": "/steam-app/build/static/css/main.f6f6b36d.css.map",
+    "main.c93fc0d8.js.map": "/steam-app/build/static/js/main.c93fc0d8.js.map",
+    "787.2bf6970a.chunk.js.map": "/steam-app/build/static/js/787.2bf6970a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6f6b36d.css",
+    "static/js/main.c93fc0d8.js"
+  ]
+}
