@@ -13,4 +13,7 @@ function ubicacion(){
     </div>
 }
 
+
+
+
 export default ubicacion

@@ -1,6 +1,15 @@
 import "../styles/profilecontent.css"
-import macroblank from "../img/macroblank.jpg"
+import "../styles/screenshots.css"
+import Game from "./Game";
 import ProfileLinks from "../pages/ProfileLinks";
+import { Link } from "react-router-dom";
+
+// import imagenes
+import macroblank from "../img/macroblank.jpg"
+
+import brotatogame from "../img/gamesimg/brotatogame.jpg"
+import hadesgame from "../img/gamesimg/hadesgame.jpg";
+import nomanskygame from "../img/gamesimg/nomanskygame.jpg"
 
 function ProfileContent (){
     return <div>
@@ -28,15 +37,31 @@ function ProfileContent (){
                         </div>
                 </div>
             </div>
+            
         </div>
-        <div class="row">
-            <div>
-                <h4>Captures</h4>
+        <div class="gamesplayed">
+                <div>   
+                    <div>
+                        <h4>Recent activity</h4>
+                    </div>
+                </div>
                 <div>
+                    <div class="space">
+                        <Link to="/games">
+                            <Game img={brotatogame} nombre="Brotato" tiempo="68 HS"/>
+                        </Link>
+                    </div>
+                    <div class="space">
+                        <Game img={hadesgame} nombre="Hades" tiempo="125 HS"/>
+                    </div>
+                    <div class="space">
+                        <Game img={nomanskygame} nombre="No Man's Sky" tiempo="36 HS"/>
+                    </div>
                     
                 </div>
             </div>
-        </div>
+                
+        
         <aside>
             <h3>IN PROCESS...</h3>
         </aside>

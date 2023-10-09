@@ -1,0 +1,35 @@
+.screenshots{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.capturesdiv{
+    display: flex;
+    padding: 17px 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+}
+
+.capturesdiv img{
+    padding: 8px 8px 8px 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.capturauno{
+    padding-left: 5px;
+}
+
+.capturados{
+    padding-left: 30px;
+}
+@media screen and (max-width:1400px) {
+    
+}
+@media screen and (max-width:1200px){
+    .capturados img{
+        display: none;
+    }
+}
+
+

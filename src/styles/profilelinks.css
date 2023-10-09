@@ -3,6 +3,7 @@ ul li{
     list-style: none;
     margin-left: -12px;
     color: #ebebeb;;
+    padding-top: 2px;
 }
 
 .badgesdiv img{

@@ -4,7 +4,7 @@ import background from "../img/backgroundsteam.mp4"
 import { Route, Link } from "react-router-dom"
 
 function Layout() {
-    return <div>
+    return <div class="black">
         <nav>
             <Link to="/">
                 <img  src={logo}/>

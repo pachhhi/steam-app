@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/steam-app/static/css/main.514e18ad.css",
-    "main.js": "/steam-app/static/js/main.971764a3.js",
+    "main.css": "/steam-app/static/css/main.703922ba.css",
+    "main.js": "/steam-app/static/js/main.833411b8.js",
     "static/js/787.2bf6970a.chunk.js": "/steam-app/static/js/787.2bf6970a.chunk.js",
     "static/media/backgroundsteam.mp4": "/steam-app/static/media/backgroundsteam.b8f5d6fcc552e8bfd6ba.mp4",
     "static/media/badgefreedom.png": "/steam-app/static/media/badgefreedom.e774ca7f1c2cf2fefeda.png",
     "static/media/steamlogo.png": "/steam-app/static/media/steamlogo.b2976ad14ddfb6db59e6.png",
+    "static/media/primercaptura.jpg": "/steam-app/static/media/primercaptura.e305e57ddd8e9fdcf0b9.jpg",
     "static/media/badgegames.png": "/steam-app/static/media/badgegames.f2f7e80dfa3cdeea438d.png",
     "static/media/badge.png": "/steam-app/static/media/badge.6ed160454a0c2f1c5c16.png",
     "static/media/badgecounterstrike.png": "/steam-app/static/media/badgecounterstrike.1f66017133cd3c6b88f3.png",
@@ -13,12 +14,12 @@
     "static/media/badgecommunity.png": "/steam-app/static/media/badgecommunity.213bdb657505526cb448.png",
     "static/media/macroblank.jpg": "/steam-app/static/media/macroblank.ffc74d1de3e477ae1f2f.jpg",
     "index.html": "/steam-app/index.html",
-    "main.514e18ad.css.map": "/steam-app/static/css/main.514e18ad.css.map",
-    "main.971764a3.js.map": "/steam-app/static/js/main.971764a3.js.map",
+    "main.703922ba.css.map": "/steam-app/static/css/main.703922ba.css.map",
+    "main.833411b8.js.map": "/steam-app/static/js/main.833411b8.js.map",
     "787.2bf6970a.chunk.js.map": "/steam-app/static/js/787.2bf6970a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.514e18ad.css",
-    "static/js/main.971764a3.js"
+    "static/css/main.703922ba.css",
+    "static/js/main.833411b8.js"
   ]
 }

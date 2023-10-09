@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 nav{
@@ -11,24 +12,30 @@ nav{
     justify-content: center;
     align-items: center;
     box-shadow: 0px 5px 0px 0px #000000;
-    
+    overflow-x: hidden;
 }
 
 nav img{
     background-color: #171D25;
     width: 176px;
     height: 44px;
-    
+    overflow-x: hidden;
 }
 
 /* VIDEO */
 
 video, source{
     width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     z-index: -25;
     position: absolute;
     left: 0;
     object-fit: cover;
+    
+}
+
+.black{
+    
 }
